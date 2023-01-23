@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(41, 38, 38);
+  color: white;
+}
+.form-input {
+  padding: 8px 16px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 16px;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #d8a91a;
+}
+.formm {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  margin-top: 8px;
+  display: flex;
+  border: 1px solid #d8a91a;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-button {
+  position: relative;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  min-width: 96px;
+  padding: 8px 20px;
+  text-align: center;
+  transition: color 0.15s ease, background-color 0.15s ease;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: block;
+  padding: 12px 0;
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.2);
+}
+ul li:hover {
+  text-decoration: underline;
+}
+.size {
+  display: flex;
+  justify-content: center !important;
+  width: 50% !important;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}

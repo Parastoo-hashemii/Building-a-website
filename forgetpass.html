@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget password</title>
+    <link rel="stylesheet" href="./loginstyle.css">
+    <!-- <link rel="stylesheet" href="./forgetpass.css"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="rest-password">
+        <h1>Forget password</h1>
+        <p>how would you like to reset your password?</p>
+        <div class="chooze-type-resend password">
+          <div class="chooze-input">
+            <label for="inputemail" >Email
+                <input class="email-input" type="radio" id="inputemail" value="inputemail"   name="text"checked />
+            </label>
+            
+          </div>
+          <div class="chooze-input">
+            <label for="inputtext" >Text Message
+                 <input class="number-input" type="radio" id="inputtext" value="inputtext"  name="text" />
+            </label>
+           
+          </div>
+        </div>
+
+        <p>
+            We will send you an email with instructions on how to reset your password.
+        </p>
+        <div class="input-type hidden" id="email">
+            <input type="email" class="text-input  " placeholder="name@exaple.com">
+
+        </div>
+        <div class="input-type " id="number">
+            <input type="tel" class="text-input">
+
+        </div>
+       <button class="form--button" type="submit">continue</button>
+        </div>
+
+        
+           
+
+
+      </div>
+    </div>
+    <script src="./forgetpass.js"></script>
+  </body>
+</html>
