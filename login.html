@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./loginstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="./index.html" class="form form--hidden" id="login">
+        <h1 class="form--title">Login</h1>
+        <div class="form--message form--message--error">
+          <!-- incorrect username/password combination -->
+        </div>
+        <div class="form--input-group">
+          <input
+            id="username"
+            type="text"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="username or email"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <div class="form--input-group">
+          <input
+            id="password"
+            type="password"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="password"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <button class="form--button" type="submit" onclick="validation()">
+          continue
+        </button>
+        <p claa="form--text">
+          <a href="#" class="form--link forget">Forget your password?</a>
+        </p>
+        <p claa="form--text">
+          <a class="form--link" href="./" id="linkcreatAcount"
+            >Don't have an account? create account</a
+          >
+        </p>
+      </form>
+      <form class="form" id="createAccount">
+        <h1 class="form--title">createAccount</h1>
+        <div class="form--message form--message--error">
+          <!-- incorrect username/password combination -->
+        </div>
+        <div class="form--input-group">
+          <input
+            id="signupUsername"
+            type="text"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="username"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <div class="form--input-group">
+          <input
+            type="text"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="Email"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <div class="form--input-group">
+          <input
+            type="password"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="password"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <div class="form--input-group">
+          <input
+            type="password"
+            class="form--input form--input-error"
+            autofocus
+            placeholder="confirm password"
+          />
+          <div class="form--input-error-massage"></div>
+        </div>
+        <button class="form--button" type="submit">continue</button>
+
+        <p claa="form--text">
+          <a class="form--link" href="./" id="linkLogin"
+            >Already have an account?sign in</a
+          >
+        </p>
+      </form>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>
